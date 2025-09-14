@@ -1,3 +1,5 @@
+#ifdef SOFA_INCLUDE_TESTS
+
 #include <sofa.h>
 #include "sofam.h"
 #include <stdio.h>
@@ -10365,3 +10367,5 @@ int main(int argc, char *argv[])
 **
 **--------------------------------------------------------------------*/
 }
+
+#endif
